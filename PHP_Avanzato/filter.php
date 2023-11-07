@@ -10,7 +10,7 @@
 <?php
 
 $x = "<h2>Hello Word</h2>";
-$x_san = filter_var($x, FILTER_SANITIZE_STRING); //elimino dalla stringa i tag html
+$x_san = filter_var($x, FILTER_SANITIZE_STRING); //elimino dalla stringa i tag html 
 echo $x."<br>";
 echo $x_san;
 

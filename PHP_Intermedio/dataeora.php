@@ -16,7 +16,7 @@
     echo date_default_timezone_set("Europe/Rome")."Italia - Roma = ";
     echo date("h:i:sa")."<br>";
 
-    //impostare una data specifica da una stringa
+    //impostare una data specifica da una stringa 
     echo "La mia data"."<br>";
     $x = strtotime("10:00pm 27 may 2003");
     echo date("d/m/Y h:i:sa", $x)

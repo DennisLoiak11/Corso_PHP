@@ -18,7 +18,7 @@ echo readfile("example.txt")."<br>"; //legge il file e basta
 $x = fopen("example.txt", "r"); //con "r" possiamo esclusivamente, 
                                 //con "w" possiamo creare nuovi contenuti eliminando quelli già presenti, 
                                 //con "a" possiamo aggiungere contenuti a quelli già presenti
-echo fread($x, filesize("example.txt"))."<br>";
+echo fread($x, filesize("example.txt"))."<br>"; 
 fclose($x);
 
 

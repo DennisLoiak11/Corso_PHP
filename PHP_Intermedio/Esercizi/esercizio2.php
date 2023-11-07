@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php
-    
+     
         //ESERCIZIO 2
         echo " Esercizio 2 "."<br>";
 

@@ -10,4 +10,4 @@
     The <?php echo $_POST['clothes']; ?> is <?php echo $_POST['color']; ?>
 
 </body>
-</html>
+</html> 

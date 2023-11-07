@@ -49,7 +49,7 @@ echo "Dennis is ".$y[0][1]."<br>";
 
     echo sumInt(10, 4)."<br>";
 
-
+ 
     $arr = array(
         "Dennis", "Simona", "Ilaria"
     );

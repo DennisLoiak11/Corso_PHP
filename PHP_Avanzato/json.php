@@ -8,7 +8,6 @@
 <body>
     
 <?php
-
 $x = array("Dennis", "Ilaria", "Simona");
 echo json_encode($x)."<br>"; //mi converte l'array in json
 

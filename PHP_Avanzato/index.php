@@ -11,7 +11,7 @@
 
 include "header.php"; //importo tutto il file
 echo $x; //le variabili sono visibili
-
+ 
 
 ?>
 

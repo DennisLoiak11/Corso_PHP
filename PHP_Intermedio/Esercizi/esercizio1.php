@@ -10,7 +10,7 @@
 //PRIMO ESERCIZIO
 <?php
 
-$x = 3;
+$x = 3; 
 $y = 4;
 
 $z = 6;

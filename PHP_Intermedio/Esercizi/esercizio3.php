@@ -13,7 +13,7 @@
 $y = date("Y"). " Current Year". "<br>";
 echo $y;
 
-if($y > 2000){
+if($y > 2000){ 
     echo "Anno superiore al 2000";
 }else if($y = 2000){
     echo "Ti trovi nell'anno 2000";
