@@ -88,12 +88,26 @@
 
 
 //OPERAZIONI SQL - "ALTER DROP"
-$sql_op = "ALTER TABLE test DROP COLUMN age;";
+// $sql_op = "ALTER TABLE test DROP COLUMN age;";
 
-if($connection->query($sql_op) == TRUE){
-    echo "Column delete!";
+// if($connection->query($sql_op) == TRUE){
+//     echo "Column delete!";
+// }else{
+//     echo "Error".$connection->error;
+// }
+
+
+// //OPERAZIONI SQL - "ORDER"
+
+$sql_op = "SELECT * FROM test ORDER BY surname ASC;";
+$response = $connection->query($sql_op);
+
+if ($response->num_rows > 0) {
+    while($row = $response->fetch_assoc()){
+        echo "id: ".$row["id"]." - name: ".$row["name"]." - surname: ".$row["surname"]." - work: ".$row["work"]."<br>";
+    }
 }else{
-    echo "Error".$connection->error;
+    echo "No result";
 }
 
 ?>
